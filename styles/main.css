@@ -1,0 +1,23 @@
+/* Header */
+
+#header{
+    background-color: rgb(89, 74, 102); 
+    width:  20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#profileimg {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: 50%;
+    padding-top: 5%;
+    border-radius: 60%;
+}
+
+nav li{
+    list-style-type: none;
+}
