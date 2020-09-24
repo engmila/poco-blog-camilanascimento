@@ -1,8 +1,10 @@
 /* Body */
+
 body {
     width: 100%;
     margin: 0;
 }
+
 /* Header */
 
 #header{
@@ -37,6 +39,37 @@ body {
     text-decoration: none;
 }
 
+/* nav - header */
+nav {
+    padding-top: 3.75em;
+}
+.menu {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(68, 34, 114);
+}
+
+/* icons - header */
+
+.footer_icons {
+    width: 15vh;
+    padding-top: 3.75em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer_icons li {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* main */
 
 main {
@@ -61,11 +94,16 @@ main {
 
 /* footer */
 
-footer {
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainfooter {
     margin-left: 25%;
 }
 
-footer p {
+.mainfooter p {
     text-align: center;
 }
 
