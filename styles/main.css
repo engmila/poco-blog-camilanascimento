@@ -81,6 +81,14 @@ main {
     margin-left: 25%;
 }
 
+main h2 {
+    font-size: 3em;
+}
+
+main h3 {
+    font-size: 1.75em;
+}
+
 #mainHeaderImg {
     display: block;
     width: 100%;
