@@ -32,6 +32,7 @@ body {
 
 #header li{
     list-style-type: none;
+    padding-top: 0.55em;
 }
 
 /* nav - header */
@@ -48,8 +49,8 @@ nav {
 }
 
 .menu a {
+    height: 5vh;
     width: auto;
-    padding: 0;
     color: white;
     text-decoration: none;
 }
@@ -58,14 +59,11 @@ nav {
     height: 5vh;
     background-color: white;
     color: rgb(68, 34, 114);
-    font-size: large;
-    text-align: center;
 }
 
 /* icons - header */
 
 .footer_icons {
-    width: 15vh;
     padding: 0;
     padding-top: 3.75em;
     display: flex;
@@ -74,6 +72,8 @@ nav {
 }
 
 .icon {
+    padding: 0;
+    width: 1.35em;
     font-size: 2.45em;
 }
 
